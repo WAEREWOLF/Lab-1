@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+
+int x,y, sum=0, mlt,sub ;
+   printf("Input the first number x= ");
+   scanf("%d", &x);
+   printf("Input the second number y= ");
+   scanf("%d", &y);
+    sum=x+y;
+    mlt=x*y;
+    sub=x-y;
+    printf("x+y= %d\n",sum);
+    printf("x*y= %d\n",mlt);
+    printf("x-y= %d\n",sub);
+
+
+
+    return 0;
+}
