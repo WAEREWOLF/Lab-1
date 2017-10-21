@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    printf("\n First name: %s", "Anghel");
+     printf("\n Second name: %s", "Paul");
+
+    return 0;
+
+}

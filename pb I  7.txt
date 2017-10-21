@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+int i=412;
+int j=100;
+double x= 987.654321;
+int main()
+{
+    //a
+    double a=i/j;
+    double b=(double)(i/j);
+    printf("\n a= %d",a);
+    printf("\n b= %d",b);
+
+    //b
+    double c=(int)(x*10.0+0.5)/10;
+    printf("\n c= %d",c);
+
+    //c
+    i=i/j;
+    j=i/j;
+    printf("\n i= %d",i);
+    printf("\n j= %d",j);
+    return 0;
+
+}
+
+
+
+//se va afisa a=0, b=0; c=0; i=4, j=0

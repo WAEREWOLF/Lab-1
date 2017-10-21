@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int x,y,z,k,inv1,inv2;
+float sqr1,sqr2,p;
+int main()
+{
+    printf("Input the first number x= ");
+    scanf("%d",&x);
+    printf("Input the second number y= ");
+    scanf("%d",&y);
+     p=pow(x,y);
+    sqr1=sqrt(x);
+
+    sqr2=sqrt(y);
+    //pow1=x^y;
+
+    z=0;
+    while(x!=0)
+    {
+        z=z*10+x%10;
+        x=x/10;
+    }
+
+    k=0;
+    while(y!=0)
+    {
+        k=k*10+y%10;
+        y=y/10;
+    }
+
+
+
+    printf("Answer to a) is %f\n", sqr1);
+    printf("Answer to b) is %f\n", sqr2);
+    printf("Answer to c) is %f\n", p);
+    printf("Answer to d) is %d\n", z);
+    printf("Answer to e) is %d\n", k);
+    return 0;
+}
